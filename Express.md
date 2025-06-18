@@ -1,0 +1,15 @@
+Security best practices for Express applications in production include:
+
+- [Don’t use deprecated or vulnerable versions of Express](https://expressjs.com/en/advanced/best-practice-security.html#dont-use-deprecated-or-vulnerable-versions-of-express)
+- [Use TLS](https://expressjs.com/en/advanced/best-practice-security.html#use-tls)
+- [Do not trust user input](https://expressjs.com/en/advanced/best-practice-security.html#do-not-trust-user-input)
+    - [Prevent open redirects](https://expressjs.com/en/advanced/best-practice-security.html#prevent-open-redirects)
+- [Use Helmet](https://expressjs.com/en/advanced/best-practice-security.html#use-helmet)
+- [Reduce fingerprinting](https://expressjs.com/en/advanced/best-practice-security.html#reduce-fingerprinting)
+- [Use cookies securely](https://expressjs.com/en/advanced/best-practice-security.html#use-cookies-securely)
+    - [Don’t use the default session cookie name](https://expressjs.com/en/advanced/best-practice-security.html#dont-use-the-default-session-cookie-name)
+    - [Set cookie security options](https://expressjs.com/en/advanced/best-practice-security.html#set-cookie-security-options)
+- [Prevent brute-force attacks against authorization](https://expressjs.com/en/advanced/best-practice-security.html#prevent-brute-force-attacks-against-authorization)
+- [Ensure your dependencies are secure](https://expressjs.com/en/advanced/best-practice-security.html#ensure-your-dependencies-are-secure)
+    - [Avoid other known vulnerabilities](https://expressjs.com/en/advanced/best-practice-security.html#avoid-other-known-vulnerabilities)
+- [Additional considerations](https://expressjs.com/en/advanced/best-practice-security.html#additional-considerations)
