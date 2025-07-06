@@ -1,0 +1,118 @@
+https://redis.io/docs/latest/develop/data-types/lists/
+
+SET key value
+Set the value for a key.
+
+GET key
+Retrieve the value for a key.
+
+DEL key [key ...]
+Delete one or more keys.
+
+EXISTS key
+Check if a key exists.
+
+EXPIRE key seconds
+Set a time-to-live (TTL) for a key.
+
+TTL key
+Get the remaining TTL for a key.
+
+String Operations
+INCR key
+Increment the integer value of a key.
+
+DECR key
+Decrement the integer value of a key.
+
+APPEND key value
+Append a value to a key.
+
+STRLEN key
+Get the length of the value stored in a key.
+
+List Operations
+LPUSH key value [value ...]
+Insert value(s) at the head of the list.
+
+RPUSH key value [value ...]
+Insert value(s) at the tail of the list.
+
+LPOP key
+Remove and return the first element of the list.
+
+RPOP key
+Remove and return the last element of the list.
+
+LLEN key
+Get the length of the list.
+
+LRANGE key start stop
+Get a range of elements from the list.
+
+BLPOP key [key ...] timeout
+Blocking pop from the head of the list.
+
+Set Operations
+SADD key member [member ...]
+Add one or more members to a set.
+
+SREM key member [member ...]
+Remove one or more members from a set.
+
+SMEMBERS key
+Get all the members in a set.
+
+SISMEMBER key member
+Determine if a member is in a set.
+
+Hash Operations
+HSET key field value [field value ...]
+Set the value of a hash field.
+
+HGET key field
+Get the value of a hash field.
+
+HDEL key field [field ...]
+Delete one or more hash fields.
+
+HGETALL key
+Get all fields and values in a hash.
+
+Sorted Set Operations
+ZADD key score member [score member ...]
+Add one or more members to a sorted set, or update scores.
+
+ZRANGE key start stop [WITHSCORES]
+Return a range of members in a sorted set.
+
+ZREM key member [member ...]
+Remove one or more members from a sorted set.
+
+Pub/Sub Operations
+PUBLISH channel message
+Post a message to a channel.
+
+SUBSCRIBE channel [channel ...]
+Listen for messages on the given channels.
+
+Other Useful Commands
+KEYS pattern
+Find all keys matching a pattern.
+
+FLUSHDB
+Remove all keys from the current database.
+
+FLUSHALL
+Remove all keys from all databases.
+
+PING
+Test connection to the server.
+
+INFO
+Get information and statistics about the server.
+
+For a complete list of commands, you can use the CLI command:
+
+text
+COMMAND LIST
